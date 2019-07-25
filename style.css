@@ -744,14 +744,17 @@ img {
   .main-footer-area .footer-widget .widget-title {
     margin-bottom: 45px; }
     .main-footer-area .footer-widget .widget-title h6 {
-      font-size: 14px;
-      font-weight: 500;
+      font-size: 20px;
+      text-decoration: black;
+      font-weight: 700;
       margin-bottom: 0;
       color: #ffffff;
+      line-height: 1;
       margin-top: 10px;
       text-transform: uppercase; }
   .main-footer-area .footer-widget .footer-social-info a {
     display: inline-block;
+    font-size: 1.5em;
     color: #606060;
     margin-right: 15px; }
     .main-footer-area .footer-widget .footer-social-info a:hover, .main-footer-area .footer-widget .footer-social-info a:focus {
@@ -760,7 +763,7 @@ img {
     display: block;
     color: #606060;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500; }
     .main-footer-area .footer-widget .useful-links li a:hover, .main-footer-area .footer-widget .useful-links li a:focus {
       color: #1E61AB; }
@@ -787,7 +790,7 @@ img {
       opacity: 1;
       visibility: visible; }
   .main-footer-area .footer-widget .single-contact i {
-    color: #69bc5f;
+    color: #1E61AB;
     font-size: 20px;
     margin-right: 15px;
     padding-top: 7px; }
