@@ -21,6 +21,7 @@
     <div id="preloader">
             <i class="circle-preloader"></i>
     </div>
+
     <!-- Header -->
     <header class="header-area" id="home">
       <!-- Top Header Area -->
@@ -93,7 +94,8 @@
                               <ul>
                                   <li><a href="#home">Home</a></li>
                                   <li><a href="#portfolio">Portfolio</a></li>                                  
-                                  <li><a href="#">Admissions</a></li>                                  
+                                  <li><a href="" data-toggle="modal" data-target="#exampleModal">
+                                        Admissions</a></li>                                  
                                   <li><a href="#about">About Us</a></li>
                                   <li><a href="#contact">Contact</a></li>
                               </ul>
@@ -112,6 +114,57 @@
       </div>
     </header>    
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Texas American High School</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card-block">
+                        <form role="form">
+                            <div class="form-group col-lg-12">
+                                <label class="form-control-label" for="form-group-input">Name</label>
+                                <input type="text" class="form-control" id="form-group-input" name="name">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label class="form-control-label" for="form-group-input">Email</label>
+                                <input type="text" class="form-control" id="form-group-input" name="email">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label class="form-control-label" for="form-group-input">Number</label>
+                                <input type="number" class="form-control" id="form-group-input" name="number">
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optradio">Father
+                                    </label>
+                                </div>
+                                    <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optradio">Student
+                                    </label>
+                                </div>           
+                            </div>                            
+                            <div class="form-group col-lg-12">
+                                <label class="form-control-label" for="form-group-input">Message</label>
+                                <textarea class="form-control" id="form-group-input" name="notes" rows="6"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="#" class="btn academy-btn btn-sm">Send</a>
+                </div>
+            </div>
+            </div>
+        </div>
     <!--  Carrusel -->
     <section class="hero-area">
         <div class="hero-slides owl-carousel owl-loaded owl-drag">
